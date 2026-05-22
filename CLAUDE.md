@@ -12,7 +12,14 @@ Custom software and tracking systems. Jim Mosier's company. Founded 2005. Builds
 - **Sub-brands/case studies:** `mosierdata/heartland/` (Heartland for Children)
 
 ### ROI Insights
-*(content folder: `roi-insights/` — pending)*
+A MosierData product. Marketing measurement layer — tells businesses their real cost per lead across every channel they spend on. Target audience: home services (HVAC, plumbing, electrical, roofing, contractors). Product voice is Jim Mosier's voice adapted for a product page context.
+
+- **Voice profile:** `voice-profiles/roi_insights.md` (overlay on top of `voice-profiles/jim_mosier.md`)
+- **Content folder:** `roi-insights/`
+- **Strategy:** `roi-insights/agency-strategy.md` — agency partner program design, pricing, and go-to-market
+- **Product site:** roiknowledge.com
+- **Frontend repo:** github.com/MosierData/roi-insights-frontend
+- **Landing page repo:** github.com/MosierData/ROI-Insights-Landing-Page
 
 ### Berean Library
 *(content folder: `berean-library/` — pending)*
@@ -28,8 +35,8 @@ Custom software and tracking systems. Jim Mosier's company. Founded 2005. Builds
 
 ## Voice profiles
 
-- `voice-profiles/jim_mosier.md` — Jim Mosier / MosierData. Full profile: three registers, approved phrases, banned constructions, anchor pieces, QC protocol.
-- Additional voice profiles should be added to `voice-profiles/` as needed.
+- `voice-profiles/jim_mosier.md` — Jim Mosier / MosierData. Full profile: three registers, approved phrases, banned constructions, anchor pieces, QC protocol. Base layer for all MosierData brands.
+- `voice-profiles/roi_insights.md` — ROI Insights product voice. Overlay on Jim's profile. Adapted for product page context, home services audience. Analytical-dominant, Showboat-rare. Must be loaded alongside `jim_mosier.md` when producing ROI Insights content.
 
 ## Folder convention
 
@@ -39,7 +46,7 @@ mosierdata/           # All MosierData content
   facebook-posts-*.md
   linkedin-posts-*.md
   posting-schedule.md
-roi-insights/         # ROI Insights content (pending)
+roi-insights/         # ROI Insights social posts, articles, and campaign content
 berean-library/       # Berean Library content (pending)
 voice-profiles/       # Voice reference documents
 jim-image/            # Image assets for posts
