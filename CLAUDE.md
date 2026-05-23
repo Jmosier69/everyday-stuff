@@ -22,7 +22,12 @@ A MosierData product. Marketing measurement layer — tells businesses their rea
 - **Landing page repo:** github.com/MosierData/ROI-Insights-Landing-Page
 
 ### Berean Library
-*(content folder: `berean-library/` — pending)*
+A MosierData product with a separate brand identity — no MosierData badge. "NotebookLM for churches." Multi-tenant RAG product that lets churches drop in sermons and ministry materials, ask questions, and get answers cited to the exact sermon and timestamp. Brand ratified May 2026. Anchor customer: Free Life Chapel (Pastor Scott Thomas). Public launch target: late June 2026.
+
+- **Voice profile:** `voice-profiles/berean_library.md` (overlay on top of `voice-profiles/jim_mosier.md`)
+- **Content folder:** `berean-library/`
+- **Product repo:** github.com/MosierData/church_transcript_search
+- **Product site:** bereanlibrary.org
 
 ## Content workflow
 
@@ -37,6 +42,7 @@ A MosierData product. Marketing measurement layer — tells businesses their rea
 
 - `voice-profiles/jim_mosier.md` — Jim Mosier / MosierData. Full profile: three registers, approved phrases, banned constructions, anchor pieces, QC protocol. Base layer for all MosierData brands.
 - `voice-profiles/roi_insights.md` — ROI Insights product voice. Overlay on Jim's profile. Adapted for product page context, home services audience. Analytical-dominant, Showboat-rare. Must be loaded alongside `jim_mosier.md` when producing ROI Insights content.
+- `voice-profiles/berean_library.md` — Berean Library product voice. Overlay on Jim's profile. Adapted for faith-adjacent product context, church staff audience. Analytical-dominant, Showboat-rare. Must be loaded alongside `jim_mosier.md` when producing Berean Library content.
 
 ## Folder convention
 
@@ -47,7 +53,7 @@ mosierdata/           # All MosierData content
   linkedin-posts-*.md
   posting-schedule.md
 roi-insights/         # ROI Insights social posts, articles, and campaign content
-berean-library/       # Berean Library content (pending)
+berean-library/       # Berean Library social posts, launch content, and case study material
 voice-profiles/       # Voice reference documents
 jim-image/            # Image assets for posts
 ```
